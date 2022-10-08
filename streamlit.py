@@ -3,6 +3,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+from sklearn.tree import DecisionTreeClassifier
 
 loaded_model = pickle.load(open('../ayoubamine1/streamlit_prediction/model.sav', 'rb'))
 

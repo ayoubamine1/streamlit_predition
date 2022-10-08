@@ -4,7 +4,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-loaded_model = pickle.load(open('model.sav', 'rb'))
+loaded_model = pickle.load(open('https://github.com/ayoubamine1/streamlit_predition/blob/83e06d7e98b2c625e4e2b4bd0a1a8b5a3541976b/model.sav', 'rb'))
 
 feel = ['Fatigued','Sleepy','Hungry','Angry','Lonely','Sad','Happy','Bored','Overweight','Underweight','High Glucose','Headache']
 

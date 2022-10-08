@@ -4,9 +4,6 @@ import streamlit as st
 import pickle
 import numpy as np
 from sklearn.tree import DecisionTreeClassifier
-import pandas as pd 
-
-data = read_csv('feelings.csv')
 loaded_model = pickle.load(open('model.sav', 'rb'))
 
 feel = ['Fatigued','Sleepy','Hungry','Angry','Lonely','Sad','Happy','Bored','Overweight','Underweight','High Glucose','Headache']

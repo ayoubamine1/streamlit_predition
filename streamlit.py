@@ -5,7 +5,7 @@ import pickle
 import numpy as np
 from sklearn.tree import DecisionTreeClassifier
 
-loaded_model = pickle.load(open('../ayoubamine1/streamlit_prediction/model.sav', 'rb'))
+loaded_model = pickle.load(open('model.sav', 'rb'))
 
 feel = ['Fatigued','Sleepy','Hungry','Angry','Lonely','Sad','Happy','Bored','Overweight','Underweight','High Glucose','Headache']
 
